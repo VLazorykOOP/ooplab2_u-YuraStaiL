@@ -5,7 +5,7 @@
 
 using namespace std;
 
-MyEncryption(char Ins[64], unsigned short OutCoding[64]);
+// void MyEncryption(char Ins[64], unsigned short OutCoding[64]);
 
 enum  ConsoleColor : unsigned int
 {							//0000 IRGB  
@@ -114,11 +114,11 @@ void Examples() {
 		case '6': cout << "goodbye";
 		}
 	
-		/*if (ch != '6')
+		if (ch != '6')
 		{
 		cout << " Press any key and enter\n";
 		ch = cin.get();
-		}*/
+		}
 	} while (ch != '6');
 }
 
